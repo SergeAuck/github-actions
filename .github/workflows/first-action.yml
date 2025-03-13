@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch
+jobs: 
+  first-job: #job definition can be anything
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print encouragement
+        run: echo "What a code!"
+      - name: Print wish
+        run: echo "Let's code more!"
